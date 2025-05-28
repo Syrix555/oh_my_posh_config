@@ -113,3 +113,12 @@ Import-Module posh-git
 ```
 
 重新应用配置文件`$PROFILE`即可。
+
+## 7. Powershell 7.5版本下conda错误
+
+源于conda对.NET9环境变量的更改，更新conda到最新版本即可。
+
+```shell
+conda 	
+```
+
